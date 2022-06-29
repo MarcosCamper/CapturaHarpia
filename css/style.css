@@ -1,4 +1,4 @@
-*{
+*{ /* *{ nos permite editar tudo dentro do nosso arquivo html */ 
     margin: 0;
     padding: 0;
 }
@@ -9,11 +9,11 @@ body{
     
 }
 
-.container{
+.container{ /* container style da pagina inteira */
     max-width: 1000px;
     margin: auto;
 }
-header{
+header{  /* montagem do Header */
     background-color: green;
     text-align: center;
     color: white;
@@ -22,4 +22,42 @@ header{
 
 .title{
     font-size: 26px;
+}
+
+h3, p{
+    
+    margin-bottom: 15px; /* espacamento entre os textos dentro do container */
+}
+
+.FormContainer{
+    max-width: 230px; /* max width for container / limitacao do container */
+    background-color: #FFFFFFBB;   /*background transparent*/
+    padding: 15px;  /* espacamento do texo em relacao ao container */
+    float: right;   /* joga nossa caixa de cadastre-se lá pro lado direito  */
+    
+}
+
+h3{
+    font-size: 16px;
+}
+
+input, select{  /* efeitos aplicados as caixas de nome e callsing e selecao de aeronave */
+    width: 100%;
+    box-sizing: border-box; /*tira a diferenca entre o input e o select */
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{  /*editando o botão inscreva-se */
+    color: white;
+    background-color: green;
+    font-weight: bold;
+}
+
+section{ /* Separando a section do header com padding */
+    padding: 20px;
+    background-image: url(../images/tela.jpg); /*colocando imagem no fundo da section */
+    background-size: contain; /*definindo o tamanho da imagem do tamanho exato da section */
+    overflow: hidden; /*colocamos overflow pq nosso FormContainer está float right e isso nao permite que a imagem fique completa */
 }
