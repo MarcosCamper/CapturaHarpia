@@ -34,6 +34,7 @@ h3, p{
     background-color: #FFFFFFBB;   /*background transparent*/
     padding: 15px;  /* espacamento do texo em relacao ao container */
     float: right;   /* joga nossa caixa de cadastre-se lá pro lado direito  */
+    text-align: left;
     
 }
 
@@ -60,4 +61,5 @@ section{ /* Separando a section do header com padding */
     background-image: url(../images/tela.jpg); /*colocando imagem no fundo da section */
     background-size: contain; /*definindo o tamanho da imagem do tamanho exato da section */
     overflow: hidden; /*colocamos overflow pq nosso FormContainer está float right e isso nao permite que a imagem fique completa */
+    
 }
