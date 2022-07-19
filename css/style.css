@@ -63,3 +63,30 @@ section{ /* Separando a section do header com padding */
     overflow: hidden; /*colocamos overflow pq nosso FormContainer está float right e isso nao permite que a imagem fique completa */
     
 }
+
+footer{ /* toda parte de css do footer */
+    background-color: green;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{ /*efeitos da imagem do time */
+    width: 250px; /* ajustando o tamanho da imagem */
+}
+
+.description{ /* css do texo do footer */
+    color: white;
+    display: inline-block; /* usado inline-block para o texo ficar ao lado da imagem */
+    max-width: 40%;
+    margin-left: 40px; /* afastando o texto da imagem */
+    text-align: left;
+    
+}
+
+.description p, .description h3{ /* separando o texto de cima do de baixo */
+    margin-bottom: 20px;
+}
+
+.description h3{ /* aumentando o tamanho da fonte do time no footer */
+    font-size: 25px;
+}
