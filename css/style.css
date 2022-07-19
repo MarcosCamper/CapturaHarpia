@@ -78,7 +78,7 @@ footer{ /* toda parte de css do footer */
     color: white;
     display: inline-block; /* usado inline-block para o texo ficar ao lado da imagem */
     max-width: 40%;
-    margin-left: 40px; /* afastando o texto da imagem */
+    margin-left: 15px; /* afastando o texto da imagem */
     text-align: left;
     
 }
